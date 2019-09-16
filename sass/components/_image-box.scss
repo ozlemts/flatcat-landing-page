@@ -1,0 +1,11 @@
+.image-box {
+    position: relative;
+    &__image {
+        position: absolute;
+        width: 60%;
+        right: 0;
+        animation-name: float;
+        animation-duration: 7s;
+        animation-iteration-count: 100;
+    }
+}

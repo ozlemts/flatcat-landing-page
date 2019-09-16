@@ -1,0 +1,29 @@
+.u-centered-text {
+    text-align: center;
+};
+.u-right-text {
+    text-align: right;
+};
+
+.u-margin-bottom-big {
+    margin-bottom: 8rem;
+};
+
+.u-margin-bottom-middle {
+    margin-bottom: 4rem;
+};
+
+.u-margin-bottom-small {
+    margin-bottom: 1rem;
+};
+
+.u-clearfix {
+    zoom: 1;
+    &:after {
+        content: '.';
+        clear:both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}

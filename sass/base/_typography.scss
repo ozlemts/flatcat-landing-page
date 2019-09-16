@@ -1,0 +1,64 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-gray;
+    padding: 3rem;
+}
+
+.heading-primary {
+    backface-visibility: hidden;
+
+    &--main {
+        color: $color-text-gray1;
+        display: block;
+        font-size: 6rem;
+        font-weight: 500;
+        letter-spacing: 1rem;
+        animation-name: move-in-left;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+    }
+
+    &--secondary {
+        color: rgba($color-white, .7);
+        letter-spacing: .06rem;
+        display: block;
+        font-weight: 300;
+        font-size: 2.08rem;
+        animation-name: move-in-right;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+    }
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    font-weight: 500;
+    border: solid;
+    border-width: .15rem 0;
+    color: rgba($color-orpink, .95);
+    border-color: rgba($color-orpink, .3);
+    display: inline-block;
+    letter-spacing: 2px;
+    margin: 5rem 0;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size * 1.2 ; 
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+

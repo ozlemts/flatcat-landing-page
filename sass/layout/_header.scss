@@ -1,0 +1,22 @@
+.header {
+    height: 80vh;
+    background-image: linear-gradient(to right bottom, rgba($color-dark, .5), rgba($color-dark, .8)), url(../img/av.jpg);
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    position: relative;
+    &__logo-box{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    &__logo{
+        width: 27%;   
+    }
+    &__text-box{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        
+    }
+}
